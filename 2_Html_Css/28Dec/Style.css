@@ -1,0 +1,55 @@
+html{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1{font-weight:400;
+font-weight: 10px;}/*desendent selector */
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin:0 3rem
+
+}
+
+nav{
+   width:20rem;
+   position:relative;
+   top:1rem;
+   right:3rem;
+}
+
+ul{display: flex;
+justify-content: space-between;
+}
+li{list-style:none;
+font-size: 1.5rem;}
+
+.showcase_image{
+    width:95vw;
+}
+article{display: flex;}
+
+footer{display: flex;
+    justify-content: space-around;/*to arrange horizontally*/
+    align-items: center;/*to arrange spacing vertically */
+    background-color:black;
+    font-size: 1.5rem;
+    color:white;
+height: 4rem;
+}
+
+.container{
+    margin-top: 4rem;
+    padding:0 20px;
+    text-align: center;
+ font-size: 1.5rem;  
+   
+}
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{ /*These are psudo classes which*/
+    color:red;
+}
+ 

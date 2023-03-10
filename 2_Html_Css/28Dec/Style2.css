@@ -1,0 +1,19 @@
+HEADER h1{
+    font-weight:200;
+} 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+nav{width:20rem;
+
+position: relative;
+top: 1 rem;}
+ ul{
+  display: flex;
+  justify-content: space-between;
+    list-style: none;
+}
+.showimage{width: 90vw;
+margin:1rem;}
