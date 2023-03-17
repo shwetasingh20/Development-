@@ -1,5 +1,4 @@
-//The os module provides operating system-related utility methods 
-//and properties. It can be accessed using:
+/*The os module provides operating system-related utility methods and properties. It can be accessed using:*/
 const os=require("os");
 console.log(os.arch())
 console.log(os.platform())
