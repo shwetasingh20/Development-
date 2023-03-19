@@ -42,4 +42,5 @@ let source="C:\\Users\\user\OneDrive\\Desktop\\webdev\\WebDev\\3_Node\\k.txt"
 let destination="C:\\Users\\user\\OneDrive\\Desktop\\webdev\\WebDev\\3_Node\\myDirectory"
 let basename=path.basename(source)
 let tobecopiedpath=path.join(destination, basename)
-fs.copyFileSync(tobecopiedpath,destination)
+//fs.copyFileSync(tobecopiedpath,destination)
+console.log("basename",basename)
